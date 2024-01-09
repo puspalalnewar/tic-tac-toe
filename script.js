@@ -62,7 +62,7 @@ const enabledButtons = () => {
 }
 
 const showWinner = (winner) => {
-    msg.innerText = `Congrulation, winner is ${winner}`;
+    msg.innerText = `Winner is ${winner}`;
     msgContainer.classList.remove("hide");
 }
 
